@@ -44,7 +44,7 @@
         </el-select>
       </el-col>
       <el-col :span="5" v-if="!typeValue">
-        <el-col :span="5"><div class="grid-content">分类：</div></el-col>
+        <el-col :span="6"><div class="grid-content">分类：</div></el-col>
         <el-col :span="16">
           <el-select
             v-model="inOutValue"
@@ -181,7 +181,8 @@
   height: 40px;
   .grid-content {
     line-height: 40px;
-    text-align: left;
+    text-align: center;
+
   }
 }
 .table-bill {
